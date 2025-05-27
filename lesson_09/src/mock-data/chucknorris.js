@@ -1,0 +1,98 @@
+const chucknorrisData = [
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:30.177068',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'j4MH4q69SluqRlsiN0YpZw',
+    updated_at: '2020-01-05 13:42:30.177068',
+    url: 'https://api.chucknorris.io/jokes/j4MH4q69SluqRlsiN0YpZw',
+    value: 'Chuck Norris can count the ABC',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:28.420821',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'b-f5XHmJSgO2HaXy-_t0mg',
+    updated_at: '2020-01-05 13:42:28.420821',
+    url: 'https://api.chucknorris.io/jokes/b-f5XHmJSgO2HaXy-_t0mg',
+    value:
+      'Multiple people have died from Chuck Norris giving them the finger.',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:30.480041',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'lP6V4K5cT0CM8RXH1MqESA',
+    updated_at: '2020-01-05 13:42:30.480041',
+    url: 'https://api.chucknorris.io/jokes/lP6V4K5cT0CM8RXH1MqESA',
+    value:
+      'Chuck Norris measurments are 10000-9000-30000000000000 the bottom piece is more bigger because he is best trained foot fighter(roundhousekick)',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:19.897976',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'dCtWCTKpTm-24YJYltzYMA',
+    updated_at: '2020-01-05 13:42:19.897976',
+    url: 'https://api.chucknorris.io/jokes/dCtWCTKpTm-24YJYltzYMA',
+    value: 'How do you get to Carnagie Hall? Chuck Norris.',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:24.142371',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: '8q7JD4FFRhqS-iiWqZkHsg',
+    updated_at: '2020-01-05 13:42:24.142371',
+    url: 'https://api.chucknorris.io/jokes/8q7JD4FFRhqS-iiWqZkHsg',
+    value:
+      'Chuck Norris loves all of his dogs, cats and horses .... with onions and gravy paired with a yak cheese, condor foie gras schmear on melba toast and a gallon jug of muscatel.',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:25.352697',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'Mqp88jeCTQ2LrL-HHnUjpg',
+    updated_at: '2020-01-05 13:42:25.352697',
+    url: 'https://api.chucknorris.io/jokes/Mqp88jeCTQ2LrL-HHnUjpg',
+    value: 'Chuck Norris gives the Grim Reaper night terrors.',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:29.569033',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'JiOvC_0ARxGlx7uWGXqSzA',
+    updated_at: '2020-01-05 13:42:29.569033',
+    url: 'https://api.chucknorris.io/jokes/JiOvC_0ARxGlx7uWGXqSzA',
+    value: 'Chuck Norris tans in a pizza oven.',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:26.194739',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: '1rCBFKPGTsOQYjVofrZlzg',
+    updated_at: '2020-01-05 13:42:26.194739',
+    url: 'https://api.chucknorris.io/jokes/1rCBFKPGTsOQYjVofrZlzg',
+    value:
+      'Chuck Norris named his price and saved 15% or more on car insurance when he switched to Allstate.',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:30.480041',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: '8OqoWC24QE2NKISVyyt-0Q',
+    updated_at: '2020-01-05 13:42:30.480041',
+    url: 'https://api.chucknorris.io/jokes/8OqoWC24QE2NKISVyyt-0Q',
+    value: 'Chuck Norris can drown water',
+  },
+  {
+    categories: [],
+    created_at: '2020-01-05 13:42:20.841843',
+    icon_url: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png',
+    id: 'f9-bV3bBRwGLb-diMLDtlA',
+    updated_at: '2020-01-05 13:42:20.841843',
+    url: 'https://api.chucknorris.io/jokes/f9-bV3bBRwGLb-diMLDtlA',
+    value: 'The world was a cube. Until Chuck Norris got there!',
+  },
+];
+
+module.exports = chucknorrisData;

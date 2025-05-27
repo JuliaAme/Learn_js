@@ -33,8 +33,8 @@ function getRightCaptain() {
 }
 
 function getRightDoc() {
-  const filtered = crewArrObj.filter(el => el.gender === 'ж' && el.prof === 'Врач')
-  return `${filtered[1].name}, ${filtered[1].gender}, ${filtered[1].prof}, ${filtered[1].exp}`
+  const [,filtered] = crewArrObj.filter(el => el.gender === 'ж' && el.prof === 'Врач')
+  return `${filtered.name}, ${filtered.gender}, ${filtered.prof}, ${filtered.exp}`
   
 }
 
