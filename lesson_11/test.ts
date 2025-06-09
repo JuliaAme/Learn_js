@@ -87,6 +87,51 @@ class Container<T> {
 const numberContainer = new Container<number>();
 numberContainer.add(10);
 numberContainer.add(20);
-console.log(numberContainer.getAll()); 
-console.log(numberContainer.getFirst()); 
-console.log(numberContainer.isEmpty());
+// console.log(numberContainer.getAll()); 
+// console.log(numberContainer.getFirst()); 
+// console.log(numberContainer.isEmpty());
+
+type Role = "admin" | "editor" | "viewer";
+
+interface User {
+  id: number;
+  name: string;
+  role: Role;
+}
+
+const users: User[] = [
+  { id: 1, name: "Аня", role: "admin" },
+  { id: 2, name: "Борис", role: "editor" },
+  { id: 3, name: "Вика", role: "viewer" },
+  { id: 4, name: "Глеб", role: "admin" },
+  { id: 5, name: "Даша", role: "editor" },
+];
+function filterUsersByRole(users: User[], role: Role): User[] {
+  return users.filter(el => el.role === role)
+}
+const admins = filterUsersByRole(users, "admin");
+// console.log(admins);
+
+
+interface Product {
+    name: string;
+    category: string;
+}
+
+const products: Product[] = [
+    { name: "Молоко", category: "Продукты" },
+    { name: "Сыр", category: "Продукты" },
+    { name: "Футболка", category: "Одежда" },
+    { name: "Штаны", category: "Одежда" },
+    { name: "Шампунь", category: "Косметика" }
+];
+function groupProductsByCategory(products: Product[]): Record<string, Product[]>{
+let grouped = products.reduce<Record<string, Product[]>>((acc, el) => {
+    if (!acc[el.category]) {
+        acc[el.category] = [];
+    }
+     acc[el.category].push(el)
+    return acc;
+}, {})
+return grouped}
+console.log(groupProductsByCategory(products));
